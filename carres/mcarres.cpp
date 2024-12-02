@@ -1,27 +1,17 @@
-// carres.cpp : Ce fichier contient la fonction 'main'. L'exécution du programme commence et se termine à cet endroit.
-//
-
-#include <iostream>
-using namespace std;
 
 
-void Setsx(int sx1);
+#include "carre.h"
 
-void Setsy(int sy1);
 
-void Setcote(int cote1);
 
-void Afficher();
 
-class CCarre
-{
-public:
-    double sx, sy, cote;
-};
 
 
 int main()
 {
-    
+
+    cout << "saisie les x :"; cin >> sx1;
+    cout << "Les y c'est :"; cin >> sy1;
+    cout << "Les cote c'est :"; cin >> cote1;
 }
 
