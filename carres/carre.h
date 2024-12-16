@@ -14,7 +14,9 @@ public:
     int Getsx();
     int Getsy();
     int GetCote();
+
+    void Deplacer(char direction, int saut);
 private:
-    double sx, sy, cote;
+    int sx, sy, cote;
 };
 
