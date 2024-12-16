@@ -9,12 +9,15 @@
 
 int main()
 {
+	CCarre c1;
+	c1.Afficher();
+
+	c1.Getsx();
+	c1.Getsy();
+	c1.GetCote();
 
 
 
 
-    cout << "saisie les x :"; cin >> sx1;
-    cout << "Les y c'est :"; cin >> sy1;
-    cout << "Les cote c'est :"; cin >> cote1;
 }
 

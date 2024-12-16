@@ -11,6 +11,9 @@ public:
     void Setsy(int sy1);
     void Setcote(int cote1);
     void Afficher();
+    int Getsx();
+    int Getsy();
+    int GetCote();
 private:
     double sx, sy, cote;
 };
